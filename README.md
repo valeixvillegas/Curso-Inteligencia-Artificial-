@@ -1,57 +1,59 @@
 # Inteligencia Artificial
 
-## 📂 Ejercicios 
+Este repositorio contiene las prácticas desarrolladas durante el curso de Inteligencia Artificial, organizadas en orden cronológico conforme a los temas abordados en clase.
 
-### [Ejercicio 1 — Aplicaciones de la IA](./Ejercicio%201)
+## Ejercicios
 
-**Tema:** Introducción y reflexión sobre la Inteligencia Artificial.
+### [Ejercicio 1 — Aplicaciones de la Inteligencia Artificial](./Ejercicio%201)
 
-Actividad introductoria que identifica aplicaciones de la IA presentes en la vida cotidiana y analiza ejemplos de herramientas o sistemas inteligentes utilizados actualmente.
+**Objetivo:** Introducir los conceptos básicos de la Inteligencia Artificial.
+
+Se analizan diversas aplicaciones de la IA en la vida cotidiana y se reflexiona sobre el impacto de los sistemas inteligentes en la actualidad.
 
 ### [Ejercicio 2 — Mundo de Wumpus](./Ejercicio%202)
 
-**Tema:** Agentes inteligentes, representación de ambientes y toma de decisiones.
+**Objetivo:** Modelar un agente inteligente en un entorno determinado.
 
-Implementación y documentación de un mundo de Wumpus en una cuadrícula de 4 x 4. Se define la posición inicial del agente, el Wumpus, los pozos, el oro y el sistema de recompensas, también se incluyen diagramas y modelos visuales del entorno.
+Se desarrolla el entorno del Mundo de Wumpus en una cuadrícula de 4 x 4, definiendo la posición del agente, del Wumpus, de los pozos y del oro, así como el sistema de recompensas y su representación visual.
 
 ### [Ejercicio 3 — Descripción PEAS de agentes](./Ejercicio%203)
 
-**Tema:** Especificación de agentes inteligentes mediante el modelo PEAS.
+**Objetivo:** Especificar agentes inteligentes mediante el modelo PEAS.
 
-Describe ocho agentes inteligentes utilizando Performance, Environment, Actuators y Sensors. Se analizan ejemplos como asistentes virtuales, robots aspiradoras, sistemas de recomendación, vehículos autónomos, agentes de trading, diagnóstico médico, drones y jugadores de ajedrez.
+Se describen ocho agentes inteligentes a partir de su medida de rendimiento, entorno, actuadores y sensores, considerando casos como asistentes virtuales, vehículos autónomos y sistemas de diagnóstico.
 
 ### [Ejercicio 4 — Búsqueda no informada](./Ejercicio%204)
 
-**Tema:** Comparación de algoritmos de búsqueda en el mapa de Rumania.
+**Objetivo:** Comparar estrategias de búsqueda sin información heurística.
 
-Experimenta con estrategias que no utilizan información heurística para encontrar rutas: BFS, UCS, DFS, DLS e IDS. La carpeta contiene resultados gráficos, subgrafos y un reporte comparativo para observar las diferencias entre los algoritmos.
+Se aplican los algoritmos BFS, UCS, DFS, DLS e IDS sobre el mapa de Rumania, con el fin de observar su comportamiento, eficiencia y diferencias en la búsqueda de rutas.
 
 ### [Ejercicio 5 — Búsqueda informada](./Ejercicio%205)
 
-**Tema:** Uso de heurísticas para encontrar rutas eficientes.
+**Objetivo:** Evaluar el uso de heurísticas en la búsqueda de rutas.
 
-Compara los algoritmos Greedy Best-First Search y A* sobre el mapa de Rumania. Se estudia cómo una función heurística puede orientar la búsqueda y cómo cambian las rutas y los resultados obtenidos.
+Se comparan los algoritmos Greedy Best-First Search y A* sobre el mapa de Rumania, analizando la influencia de la función heurística en la ruta obtenida.
 
 ### [Ejercicio 6 — Perceptrón Multicapa](./Ejercicio%206)
 
-**Tema:** Aprendizaje supervisado y redes neuronales.
+**Objetivo:** Implementar una red neuronal para clasificación.
 
-Construye y analiza un perceptrón multicapa utilizando Keras para clasificar el conjunto de datos Iris. El notebook documenta el flujo experimental, desde la preparación de los datos hasta el entrenamiento y la evaluación del modelo.
+Se construye un perceptrón multicapa con Keras para clasificar el conjunto de datos Iris, abarcando la preparación de datos, el entrenamiento y la evaluación del modelo.
 
 ### [Ejercicio 7 — Agrupamiento con K-medias](./Ejercicio%207)
 
-**Tema:** Aprendizaje no supervisado y análisis de clusters.
+**Objetivo:** Aplicar técnicas de aprendizaje no supervisado.
 
-Aplica el algoritmo K-means para formar grupos y analiza la calidad de la agrupación mediante las gráficas del método del codo, la silueta y los diagramas de Voronoi. Se comparan los datos originales con una versión modificada.
+Se utiliza el algoritmo K-means para la formación de grupos, evaluando la calidad del agrupamiento mediante el método del codo, el coeficiente de silueta y los diagramas de Voronoi.
 
 ### [Ejercicio 8 — Q-learning](./Ejercicio%208)
 
-**Tema:** Aprendizaje por refuerzo y políticas epsilon-greedy.
+**Objetivo:** Entrenar un agente mediante aprendizaje por refuerzo.
 
-Entrena un agente mediante Q-learning en un entorno tipo Cliff Walking. El agente aprende a desplazarse desde el inicio hasta la meta evitando el acantilado, utilizando recompensas, exploración epsilon-greedy y una tabla Q.
+Se implementa Q-learning en un entorno tipo Cliff Walking, donde el agente aprende a alcanzar la meta evitando el acantilado, a partir de recompensas y exploración epsilon-greedy.
 
 ### [Ejercicio 9 — Inferencia lógica](./Ejercicio%209)
 
-**Tema:** Encadenamiento hacia adelante y hacia atrás.
+**Objetivo:** Implementar un sistema de razonamiento lógico.
 
-Implementa un motor de inferencia para resolver el problema de acceso nocturno a una biblioteca. El sistema utiliza una base de hechos y reglas en YAML, unificación de átomos y dos estrategias de razonamiento: forward chaining y backward chaining.
+Se desarrolla un motor de inferencia para resolver el problema de acceso nocturno a una biblioteca, utilizando una base de hechos y reglas en YAML, junto con encadenamiento hacia adelante y hacia atrás.
